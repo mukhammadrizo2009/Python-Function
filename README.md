@@ -34,8 +34,8 @@
 
 * **Vazifa**: Foydalanuvchi ball kiritadi → `A`, `B`, `C`, `F` baho qaytadi.
 * **Funksiya**:
-
-  * `get_grade(score)`
+get_grade(score)`
+  * `
 * **Qo‘llaniladigan narsa**: `if-elif-else`, `str`, `int`
 
 ---
