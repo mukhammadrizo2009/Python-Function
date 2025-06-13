@@ -1,16 +1,22 @@
+def ask_question(question): 
+    user_answer = input(f"{question}").strip()
+    return user_answer
+
 def check_answer(user_answer, correct_answer):
-
-  return user_answer.strip().lower() == correct_answer.strip().lower()
-
-
-def ask_question(question: str, correct_answer: str):
-    
-    user_answer = input("Savolni kiriting: " ,question + " ")
-
-    if check_answer(user_answer, correct_answer):
-        print("To'g'ri javob!")
-    else:
-        print(f"Noto'g'ri. To'g'ri javob: {correct_answer}")
+    result = user_answer.lower() == correct_answer.lower()
+    return result
 
 def main():
-    ask_question("1.8+8=?" , "16")
+    question = "Tojikiston poytahti qayer?"
+    correct_answer = "Dushanbe"
+
+    user_answer = ask_question(question)
+    is_correct = check_answer(user_answer , correct_answer)
+
+    if is_correct:
+        print("To'g'ri javob!")
+
+    else:
+        print(f"Noto'g'ri, to'g'ri javob \"{correct_answer}\"")
+
+main()
