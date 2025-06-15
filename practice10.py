@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def is_strong_password(password: str):
     """Parolni tekshirishrish funksiyasi!
     
@@ -15,6 +16,11 @@ def is_strong_password(password: str):
         bir qancha xatoliklar berishi mumkin """
 
     if password.isdigit() and len(password) >= 8 :
+=======
+def is_valid_phone_number(phone):
+
+    if phone.isdigit() and len(phone) >= 8 :
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
         return print("Parol to'g'ri kiritildi!")
     
     else:
@@ -22,9 +28,15 @@ def is_strong_password(password: str):
     
 
 def main():
+<<<<<<< HEAD
     password = input("Parolingizni kiriting: ")
 
     is_strong_password(password)
     
+=======
+    phone = input("Parolingizni kiriting: ")
+
+    is_valid_phone_number(phone)
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
 
 main()

@@ -1,4 +1,5 @@
 def check_guess(secret, guess):
+<<<<<<< HEAD
     """Kompuyuter yashirgan sonni topadigan funksiya!
     
     Bu funksiya kiritilgan son kompuyuter o'ylagan son bilan bir hil
@@ -9,11 +10,16 @@ def check_guess(secret, guess):
         bir qancha xatoliklar berishi mumkin!
     
     """
+=======
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     result = secret == guess
     return result
 
 def print_result(is_corect):
+<<<<<<< HEAD
 
+=======
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     if is_corect:
         print("To'g'ri javob!")
 

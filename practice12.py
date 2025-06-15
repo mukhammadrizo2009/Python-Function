@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def calculate_bmi(weight: int , height: float):
     """Semizlikni aniqlovchi funksiya
     
@@ -17,6 +18,12 @@ def calculate_bmi(weight: int , height: float):
 
 def bmi_status(bmi):
     
+=======
+def calculate_bmi(weight, height):
+    return round(weight / (height ** 2), 2)
+
+def bmi_status(bmi):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     if bmi < 18.5:
         return "Ozg'in"
     elif 18.5 <= bmi < 25:

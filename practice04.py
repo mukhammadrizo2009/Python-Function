@@ -1,6 +1,7 @@
 score = int(input("Natijangizni kiriting: "))
 
 
+<<<<<<< HEAD
 def get_grade(score: int):
 
     """Bu Natajangiz haqida ma'lumot beradi
@@ -16,6 +17,9 @@ Errors:
     Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin!"""
     
+=======
+def get_grade(score):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     if score >= 90:
         return "A"
     elif score >= 80:

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def deposit(balance: int, amount: int):
     """Hisob raqamga pul qo'shish!
     
@@ -14,10 +15,14 @@ def deposit(balance: int, amount: int):
             Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin!  """
     
+=======
+def deposit(balance, amount):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     new_balance = balance + amount
     return new_balance
 
 
+<<<<<<< HEAD
 def withdraw(balance: int, amount: int):
     """Hisob raqamdan pul yechish!
     
@@ -34,6 +39,9 @@ def withdraw(balance: int, amount: int):
         Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin """
     
+=======
+def withdraw(balance, amount):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     if amount <= balance:
         new_balance = balance - amount
     else:
@@ -42,6 +50,7 @@ def withdraw(balance: int, amount: int):
     return new_balance
 
 def check_balance(balance):
+<<<<<<< HEAD
     """Hisobda qolgan mablag'ni tekshiradi!
     
     Bu funksiya sizning hisobingizda qolgan mablag'ni ko'rish
@@ -53,6 +62,8 @@ def check_balance(balance):
     Errors:
         Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin"""
+=======
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     print(f"Sizning balansingiz = {balance}")
 
 

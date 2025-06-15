@@ -1,5 +1,6 @@
 number = int(input("Raqam kiriting: "))
 
+<<<<<<< HEAD
 def iseven(number: int):
     """Bu juft yoki toqlik aniqlaydi!
     
@@ -15,6 +16,9 @@ def iseven(number: int):
         Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin!   """
     
+=======
+def iseven(number):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     return number % 2 == 0
 
 print(iseven(number))

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def add (a: int ,b: int):
     """Bu funksiya amallarni bir-biriga qo'shadi (+)!
     
@@ -63,6 +64,21 @@ def divide(a:int , b:int):
     Errors:
         Bu sizga "AnyError"lar berishi mumkin!"""
     
+=======
+def add (a ,b):
+    result = a + b
+    return result
+
+def subtract(a , b):
+    result = a - b
+    return result
+
+def multiply(a , b):
+    result = a * b
+    return result
+
+def divide(a , b):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     result = a / b
     return result
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def calculate_tax(salary: float):
 
     """Taksi kalkulyatori
@@ -14,6 +15,9 @@ def calculate_tax(salary: float):
              Agar funksiyada mavjud bo'lmagan narsalarni kiritsangiz
         bir qancha xatoliklar berishi mumkin!
     """
+=======
+def calculate_tax(salary):
+>>>>>>> 266bf3531177991d13d3339de3d6d1eca571087a
     if salary > 5_000_000:
         tax = salary*0.2
     else:
